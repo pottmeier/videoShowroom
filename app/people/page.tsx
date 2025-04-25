@@ -14,7 +14,7 @@ export default function PeoplePage() {
   return (
     <section className="text-center">
       <h1 className={title()}>People</h1>
-      <VideoGallery videos={people}></VideoGallery>
+      <VideoGallery videos={people} layout="stacked"></VideoGallery>
     </section>
   );
 }

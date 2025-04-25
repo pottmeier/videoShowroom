@@ -13,7 +13,7 @@ export default function GeographyPage() {
   return (
     <section className="text-center">
       <h1 className={title()}>Geography</h1>
-      <VideoGallery videos={geography}></VideoGallery>
+      <VideoGallery videos={geography} layout="stacked"></VideoGallery>
     </section>
   );
 }

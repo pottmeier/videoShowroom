@@ -13,7 +13,7 @@ export default function SportsPage() {
   return (
     <section className="text-center">
       <h1 className={title()}>Sports</h1>
-      <VideoGallery videos={sports}></VideoGallery>
+      <VideoGallery videos={sports} layout="stacked"></VideoGallery>
     </section>
   );
 }

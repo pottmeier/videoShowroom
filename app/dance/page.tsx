@@ -21,7 +21,7 @@ export default function DancePage() {
   return (
     <section className="text-center">
       <h1 className={title()}>Traditional Dances</h1>
-      <VideoGallery videos={dance}></VideoGallery>
+      <VideoGallery videos={dance} layout="grid"></VideoGallery>
     </section>
   );
 }

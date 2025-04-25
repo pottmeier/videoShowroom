@@ -13,7 +13,7 @@ export default function weddingsPage() {
   return (
     <section className="text-center">
       <h1 className={title()}>Weddings</h1>
-      <VideoGallery videos={weddings}></VideoGallery>
+      <VideoGallery videos={weddings} layout="stacked"></VideoGallery>
     </section>
   );
 }

@@ -13,7 +13,7 @@ export default function fashionPage() {
   return (
     <section className="text-center">
       <h1 className={title()}>Fashion</h1>
-      <VideoGallery videos={fashion}></VideoGallery>
+      <VideoGallery videos={fashion} layout="stacked"></VideoGallery>
     </section>
   );
 }
