@@ -11,11 +11,27 @@ import clsx from "clsx";
 import { link as linkStyles } from "@heroui/theme";
 
 export default function Home() {
+  var imgWidth = 600;
+  var imgHeight = 200;
   return (
     <>
       <section className="flex flex-col items-center justify-center gap-6 py-12 md:py-16">
-        <Image src="/Afghans_UPB.png" width={200} height={200}></Image>
-        <h1 className={title()}>We are Afghans UPB</h1>
+        <div className="flex gap-1">
+          <Image src="/icw_01.jpeg" width={imgWidth} height={imgHeight}></Image>
+          <Image src="/icw_02.jpeg" width={imgWidth} height={imgHeight}></Image>
+          <Image src="/icw_08.jpeg" width={imgWidth} height={imgHeight}></Image>
+          <Image
+            src="/Afghans_UPB.png"
+            width={imgWidth}
+            height={imgHeight}
+          ></Image>
+          <Image src="/icw_10.jpeg" width={imgWidth} height={imgHeight}></Image>
+          <Image src="/icw_05.jpeg" width={imgWidth} height={imgHeight}></Image>
+          <Image src="/icw_06.jpeg" width={imgWidth} height={imgHeight}></Image>
+        </div>
+        <Card className=" p-5 bg-green-900">
+          <h1 className={title()}>We are Afghans at UPB</h1>
+        </Card>
         <div className="flex items-center gap-6">
           <User
             avatarProps={{
@@ -31,34 +47,41 @@ export default function Home() {
           />{" "}
           <Image className="w-32 h-auto" src="/Afghans_QR.png"></Image>
         </div>
-        <ul className="flex gap-4 justify-start ml-2">
-          {siteConfig.navItems.map((item) => (
-            <Card key={item.href}>
-              <CardHeader>
-                {" "}
-                <NextLink
-                  className={clsx(
-                    linkStyles({ color: "foreground" }),
-                    "data-[active=true]:text-primary data-[active=true]:font-medium"
-                  )}
-                  color="foreground"
-                  href={item.href}
-                >
-                  {item.label}
-                </NextLink>
-              </CardHeader>
-              <CardBody className="relative w-full h-full">
-                <Image
-                  removeWrapper
-                  src={item.picture}
-                  alt={item.label}
-                  width={1200}
-                  height={100}
-                />
-              </CardBody>
-            </Card>
-          ))}
-        </ul>
+        <Card className="p-5">
+          <CardHeader className="justify-center text-center">
+            <h1 className="text-4xl">
+              Select a category to learn more about Afghanistan!
+            </h1>
+          </CardHeader>
+
+          <ul className="flex gap-4 justify-start ml-2">
+            {siteConfig.navItems.map((item) => (
+              <Card key={item.href} className="bg-green-900">
+                <CardHeader className="justify-center text-center">
+                  {" "}
+                  <NextLink
+                    className={clsx(
+                      linkStyles({ color: "foreground" }),
+                      "data-[active=true]:text-primary data-[active=true]:font-medium"
+                    )}
+                    color="foreground"
+                    href={item.href}
+                  >
+                    {item.label}
+                  </NextLink>
+                </CardHeader>
+                <CardBody className="relative h-full w-full">
+                  <Image
+                    src={item.picture}
+                    alt={item.label}
+                    width={150}
+                    height={150}
+                  />
+                </CardBody>
+              </Card>
+            ))}
+          </ul>
+        </Card>
       </section>
     </>
   );

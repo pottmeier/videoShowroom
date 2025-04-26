@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    // { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
 };
@@ -38,7 +38,7 @@ export default function RootLayout({
       <body
         className={clsx(
           "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable,
+          fontSans.variable
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
@@ -49,13 +49,12 @@ export default function RootLayout({
             </main>
             <footer className="w-full flex items-center justify-center py-3">
               <Link
-                isExternal
                 className="flex items-center gap-1 text-current"
                 href="/"
                 title="Afghans UPB"
               >
-                <span className="text-default-600">Powered by</span>
-                <p className="text-primary">Afghans UPB</p>
+                <span className="text-default-600">Powered by Afghans UPB</span>
+                <p className="text-primary">| Home</p>
               </Link>
             </footer>
           </div>

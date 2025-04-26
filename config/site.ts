@@ -7,37 +7,49 @@ export const siteConfig = {
     {
       label: "Old Afghanistan",
       href: "/old_afghanistan",
-      picture: "https://cdn.britannica.com/06/199406-050-77B8D134/Residents-life-destruction-Kabul-Afghanistan-civil-war-February-2002.jpg",
+      picture: "/old_afghanistan.jpeg",
     },
     {
       label: "Dances",
       href: "/dance",
-      picture: "https://seengar.com/wp-content/uploads/2018/01/Female-Attan-Dance.jpg",
+      picture:
+        "https://seengar.com/wp-content/uploads/2018/01/Female-Attan-Dance.jpg",
     },
     {
       label: "Fashion",
       href: "/fashion",
-      picture: "https://i.pinimg.com/736x/c0/c2/59/c0c259cb4e883f6f2a316218a1deab07.jpg",
+      picture:
+        "https://i.pinimg.com/736x/c0/c2/59/c0c259cb4e883f6f2a316218a1deab07.jpg",
+    },
+    {
+      label: "Food",
+      href: "/food",
+      picture:
+        "https://i0.wp.com/media.zeinaskitchen.se/2017/10/mantu-5_Fotor.jpg?resize=1080%2C1418",
     },
     {
       label: "Geography",
       href: "/geography",
-      picture: "https://www.guideoftheworld.com/map/asia/afghanistan/afghanistan%20map.jpg",
+      picture:
+        "https://www.guideoftheworld.com/map/asia/afghanistan/afghanistan%20map.jpg",
     },
     {
       label: "People",
       href: "/people",
-      picture: "https://kids.kiddle.co/images/f/fa/Afghan_children_in_Baghdis_province%2C_Afghanistan%2C_pose_for_a_photo_April_4%2C_2013_130404-F-WU507-005.jpg",
+      picture:
+        "https://kids.kiddle.co/images/f/fa/Afghan_children_in_Baghdis_province%2C_Afghanistan%2C_pose_for_a_photo_April_4%2C_2013_130404-F-WU507-005.jpg",
     },
     {
       label: "Sports",
       href: "/sports",
-      picture: "https://magarticles.magzter.com/articles/7855/756439/61544a78c2e4b/Buzkashi-Afghanistan-Chapandaz-Tudabarai-Qarajai-Goats-China-Mongolia.jpg",
+      picture:
+        "https://magarticles.magzter.com/articles/7855/756439/61544a78c2e4b/Buzkashi-Afghanistan-Chapandaz-Tudabarai-Qarajai-Goats-China-Mongolia.jpg",
     },
     {
       label: "Weddings",
       href: "/weddings",
-      picture: "https://i.pinimg.com/originals/f3/86/72/f38672dfea7a5bcdd8a6b64dc756419d.jpg",
+      picture:
+        "https://i.pinimg.com/originals/f3/86/72/f38672dfea7a5bcdd8a6b64dc756419d.jpg",
     },
   ],
   navMenuItems: [
