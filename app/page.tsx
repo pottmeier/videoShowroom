@@ -21,7 +21,7 @@ export default function Home() {
           <Image src="/icw_02.jpeg" width={imgWidth} height={imgHeight}></Image>
           <Image src="/icw_08.jpeg" width={imgWidth} height={imgHeight}></Image>
           <Image
-            src="/Afghans_UPB.png"
+            src="https://imgur.com/v6ctJRe"
             width={imgWidth}
             height={imgHeight}
           ></Image>
