@@ -9,10 +9,6 @@ import { Card, CardBody, CardHeader } from "@heroui/card";
 import NextLink from "next/link";
 import clsx from "clsx";
 import { link as linkStyles } from "@heroui/theme";
-import getConfig from "next/config";
-
-const { publicRuntimeConfig } = getConfig();
-const assetprefix = publicRuntimeConfig.assetprefix || '';
 
 export default function Home() {
   var imgWidth = 600;
@@ -21,38 +17,38 @@ export default function Home() {
     <>
       <section className="flex flex-col items-center justify-center gap-6 py-12 md:py-16">
         <div className="flex gap-1">
+          <img
+            src="/videoShowroom/images/icw_01.jpeg"
+            width={imgWidth}
+            height={imgHeight}
+          ></img>
           <Image
-            src={`${assetprefix}/images/icw_01.jpeg`}
+            src="/videoShowroom/images/icw_02.jpeg"
             width={imgWidth}
             height={imgHeight}
           ></Image>
           <Image
-            src="/images/icw_02.jpeg"
+            src="/videoShowroom/images/icw_08.jpeg"
             width={imgWidth}
             height={imgHeight}
           ></Image>
           <Image
-            src="/images/icw_03.jpeg"
+            src="/videoShowroom/images/Afghans_UPB.png"
             width={imgWidth}
             height={imgHeight}
           ></Image>
           <Image
-            src="/images/Afghans_UPB.png"
+            src="/videoShowroom/images/icw_10.jpeg"
             width={imgWidth}
             height={imgHeight}
           ></Image>
           <Image
-            src="/images/icw_10.jpeg"
+            src="/videoShowroom/images/icw_05.jpeg"
             width={imgWidth}
             height={imgHeight}
           ></Image>
           <Image
-            src="/images/icw_05.jpeg"
-            width={imgWidth}
-            height={imgHeight}
-          ></Image>
-          <Image
-            src="/images/icw_06.jpeg"
+            src="/videoShowroom/images/icw_06.jpeg"
             width={imgWidth}
             height={imgHeight}
           ></Image>
@@ -73,7 +69,7 @@ export default function Home() {
             }
             name="Afghan Students @ Uni Paderborn"
           />{" "}
-          <Image className="w-32 h-auto" src="/images/Afghans_QR.png"></Image>
+          <Image className="w-32 h-auto" src="/videoShowroom/images/Afghans_QR.png"></Image>
         </div>
         <Card className="p-5">
           <CardHeader className="justify-center text-center">
