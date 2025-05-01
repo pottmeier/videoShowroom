@@ -17,17 +17,17 @@ export default function Home() {
     <>
       <section className="flex flex-col items-center justify-center gap-6 py-12 md:py-16">
         <div className="flex gap-1">
-          <Image src="/icw_01.jpeg" width={imgWidth} height={imgHeight}></Image>
-          <Image src="/icw_02.jpeg" width={imgWidth} height={imgHeight}></Image>
-          <Image src="https://pottmeier.github.io/videoShowroom/Afghans_QR.png" width={imgWidth} height={imgHeight}></Image>
+          <Image src="images/icw_01.jpeg" width={imgWidth} height={imgHeight}></Image>
+          <Image src="/images/icw_02.jpeg" width={imgWidth} height={imgHeight}></Image>
+          <Image src="https://pottmeier.github.io/videoShowroom/images/Afghans_QR.png" width={imgWidth} height={imgHeight}></Image>
           <Image
             src="https://media.githubusercontent.com/media/pottmeier/videoShowroom/refs/heads/main/public/Afghans_QR.png"
             width={imgWidth}
             height={imgHeight}
           ></Image>
-          <Image src="/icw_10.jpeg" width={imgWidth} height={imgHeight}></Image>
-          <Image src="/icw_05.jpeg" width={imgWidth} height={imgHeight}></Image>
-          <Image src="/icw_06.jpeg" width={imgWidth} height={imgHeight}></Image>
+          <Image src="/images/icw_10.jpeg" width={imgWidth} height={imgHeight}></Image>
+          <Image src="/images/icw_05.jpeg" width={imgWidth} height={imgHeight}></Image>
+          <Image src="/images/icw_06.jpeg" width={imgWidth} height={imgHeight}></Image>
         </div>
         <Card className=" p-5 bg-green-900">
           <h1 className={title()}>We are Afghans at UPB</h1>
@@ -35,7 +35,7 @@ export default function Home() {
         <div className="flex items-center gap-6">
           <User
             avatarProps={{
-              src: "https://scontent-cdninstagram-com.translate.goog/v/t51.2885-19/354831460_160642980342150_7258654314261955184_n.jpg?stp=dst-jpg_s320x320_tt6&_nc_ht=instagram.frix6-1.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2QF7NmSjxVTuP0mKA6HabpXBk_hJMsz0xKBAqZtdWrETOp4bdUz3C8EZIi5_3gGAHaE&_nc_ohc=Uq7G0vSJe_gQ7kNvwFxbq2F&_nc_gid=Wm8dHkWq80F3mADL_mun2A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfHSbNWfBIghqHNyNo6Jk1WDp2jFzkAa7DvQ-4kzRadMBQ&oe=68107DD6&_nc_sid=8b3546&_x_tr_sl=en&_x_tr_tl=ru&_x_tr_hl=ru&_x_tr_pto=wapp",
+              src: "https://scontent-ham3-1.cdninstagram.com/v/t51.2885-19/354831460_160642980342150_7258654314261955184_n.jpg?_nc_ht=scontent-ham3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2QGYVVuQ7ipyoyVM8LJjmZQ1UrgM9XQ_NPnHFz0xb9dUKbEkVwdncpXahE9P4j-9u3Ti4OIjrm-CsRj1VjxV2h2w&_nc_ohc=TU7ggGXxk2EQ7kNvwGyYZZt&_nc_gid=e0A5s33-b0keiT_Up8Efiw&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AfGuJfL_6X1ezxYzYkKBmfDFe8PorX_T8ettEmb7U_7wwA&oe=681947D6&_nc_sid=7a9f4b",
               className: "w-24 h-24",
             }}
             description={
@@ -45,7 +45,7 @@ export default function Home() {
             }
             name="Afghan Students @ Uni Paderborn"
           />{" "}
-          <Image className="w-32 h-auto" src="https://github.com/pottmeier/videoShowroom/blob/main/public/Afghans_QR.png"></Image>
+          <Image className="w-32 h-auto" src="/images/Afghans_QR.png"></Image>
         </div>
         <Card className="p-5">
           <CardHeader className="justify-center text-center">
