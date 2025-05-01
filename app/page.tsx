@@ -9,6 +9,10 @@ import { Card, CardBody, CardHeader } from "@heroui/card";
 import NextLink from "next/link";
 import clsx from "clsx";
 import { link as linkStyles } from "@heroui/theme";
+import getConfig from "next/config";
+
+const { publicRuntimeConfig } = getConfig();
+const assetprefix = publicRuntimeConfig.assetprefix || '';
 
 export default function Home() {
   var imgWidth = 600;
@@ -17,17 +21,41 @@ export default function Home() {
     <>
       <section className="flex flex-col items-center justify-center gap-6 py-12 md:py-16">
         <div className="flex gap-1">
-          <Image src="/images/icw_01.jpeg" width={imgWidth} height={imgHeight}></Image>
-          <Image src="/images/icw_02.jpeg" width={imgWidth} height={imgHeight}></Image>
-          <Image src="/images/icw_03.jpeg" width={imgWidth} height={imgHeight}></Image>
+          <Image
+            src={`${assetprefix}/images/icw_01.jpeg`}
+            width={imgWidth}
+            height={imgHeight}
+          ></Image>
+          <Image
+            src="/images/icw_02.jpeg"
+            width={imgWidth}
+            height={imgHeight}
+          ></Image>
+          <Image
+            src="/images/icw_03.jpeg"
+            width={imgWidth}
+            height={imgHeight}
+          ></Image>
           <Image
             src="/images/Afghans_UPB.png"
             width={imgWidth}
             height={imgHeight}
           ></Image>
-          <Image src="/images/icw_10.jpeg" width={imgWidth} height={imgHeight}></Image>
-          <Image src="/images/icw_05.jpeg" width={imgWidth} height={imgHeight}></Image>
-          <Image src="/images/icw_06.jpeg" width={imgWidth} height={imgHeight}></Image>
+          <Image
+            src="/images/icw_10.jpeg"
+            width={imgWidth}
+            height={imgHeight}
+          ></Image>
+          <Image
+            src="/images/icw_05.jpeg"
+            width={imgWidth}
+            height={imgHeight}
+          ></Image>
+          <Image
+            src="/images/icw_06.jpeg"
+            width={imgWidth}
+            height={imgHeight}
+          ></Image>
         </div>
         <Card className=" p-5 bg-green-900">
           <h1 className={title()}>We are Afghans at UPB</h1>
