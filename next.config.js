@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {output:'export'};
 
-module.exports = nextConfig;
+module.exports = {
+  basePath: "/videoShowroom",
+  assetPrefix: "/videoShowroom/",
+  images: {
+    unoptimized: true, // Required for static export
+  },
+  output: "export",
+};

@@ -19,7 +19,7 @@ export default function Home() {
         <div className="flex gap-1">
           <Image src="/icw_01.jpeg" width={imgWidth} height={imgHeight}></Image>
           <Image src="/icw_02.jpeg" width={imgWidth} height={imgHeight}></Image>
-          <Image src="/icw_08.jpeg" width={imgWidth} height={imgHeight}></Image>
+          <Image src="https://pottmeier.github.io/videoShowroom/Afghans_QR.png" width={imgWidth} height={imgHeight}></Image>
           <Image
             src="https://media.githubusercontent.com/media/pottmeier/videoShowroom/refs/heads/main/public/Afghans_QR.png"
             width={imgWidth}
