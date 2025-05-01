@@ -70,7 +70,10 @@ export default function Home() {
             }
             name="Afghan Students @ Uni Paderborn"
           />{" "}
-          <Image className="w-32 h-auto" src="/videoShowroom/images/Afghans_QR.png"></Image>
+          <Image
+            className="w-32 h-auto"
+            src="https://i.imgur.com/SW0Vz5g.png"
+          ></Image>
         </div>
         <Card className="p-5">
           <CardHeader className="justify-center text-center">

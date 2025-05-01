@@ -2,8 +2,8 @@
 const isProd = process.env.NODE_ENV === 'production';
 
 module.exports = {
-  basePath: isProd ? '/videoShowroom' : '',
-  assetPrefix: isProd ? '/videoShowroom/' : '',
+  // basePath: isProd ? '/videoShowroom' : '',
+  // assetPrefix: isProd ? '/videoShowroom/' : '',
   images: {
     unoptimized: true, // Required for static export
   },
