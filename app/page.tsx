@@ -21,6 +21,7 @@ export default function Home() {
             src="/videoShowroom/images/icw_01.jpeg"
             width={imgWidth}
             height={imgHeight}
+            alt="Some Description"
           ></img>
           <Image
             src="/videoShowroom/images/icw_02.jpeg"
