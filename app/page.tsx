@@ -59,7 +59,7 @@ export default function Home() {
         <div className="flex items-center gap-6">
           <User
             avatarProps={{
-              src: "https://scontent-ham3-1.cdninstagram.com/v/t51.2885-19/354831460_160642980342150_7258654314261955184_n.jpg?_nc_ht=scontent-ham3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2QGYVVuQ7ipyoyVM8LJjmZQ1UrgM9XQ_NPnHFz0xb9dUKbEkVwdncpXahE9P4j-9u3Ti4OIjrm-CsRj1VjxV2h2w&_nc_ohc=TU7ggGXxk2EQ7kNvwGyYZZt&_nc_gid=e0A5s33-b0keiT_Up8Efiw&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AfGuJfL_6X1ezxYzYkKBmfDFe8PorX_T8ettEmb7U_7wwA&oe=681947D6&_nc_sid=7a9f4b",
+              src: "https://i.imgur.com/gwM4N7L.jpeg",
               className: "w-24 h-24",
             }}
             description={
