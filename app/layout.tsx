@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   icons: {
-    icon: "/Afghans_UPB.ico",
+    icon: "/images/Afghans_UPB.ico",
   },
 };
 

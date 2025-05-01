@@ -17,15 +17,15 @@ export default function Home() {
     <>
       <section className="flex flex-col items-center justify-center gap-6 py-12 md:py-16">
         <div className="flex gap-1">
-          <Image src="https://media.githubusercontent.com/media/pottmeier/videoShowroom/refs/heads/main/public/images/icw_01.jpeg" width={imgWidth} height={imgHeight}></Image>
-          <Image src="/videoShowroom/images/icw_02.jpeg" width={imgWidth} height={imgHeight}></Image>
-          <Image src="https://pottmeier.github.io/videoShowroom/images/Afghans_QR.png" width={imgWidth} height={imgHeight}></Image>
+          <Image src="/images/icw_01.jpeg" width={imgWidth} height={imgHeight}></Image>
+          <Image src="/images/icw_02.jpeg" width={imgWidth} height={imgHeight}></Image>
+          <Image src="/images/icw_03.jpeg" width={imgWidth} height={imgHeight}></Image>
           <Image
-            src="https://media.githubusercontent.com/media/pottmeier/videoShowroom/refs/heads/main/public/images/Afghans_UPB.png"
+            src="/images/Afghans_UPB.png"
             width={imgWidth}
             height={imgHeight}
           ></Image>
-          <Image src="https://media.githubusercontent.com/media/pottmeier/videoShowroom/refs/heads/main/public/images/icw_10.jpeg" width={imgWidth} height={imgHeight}></Image>
+          <Image src="/images/icw_10.jpeg" width={imgWidth} height={imgHeight}></Image>
           <Image src="/images/icw_05.jpeg" width={imgWidth} height={imgHeight}></Image>
           <Image src="/images/icw_06.jpeg" width={imgWidth} height={imgHeight}></Image>
         </div>
@@ -45,7 +45,7 @@ export default function Home() {
             }
             name="Afghan Students @ Uni Paderborn"
           />{" "}
-          <Image className="w-32 h-auto" src="images/Afghans_QR.png"></Image>
+          <Image className="w-32 h-auto" src="/images/Afghans_QR.png"></Image>
         </div>
         <Card className="p-5">
           <CardHeader className="justify-center text-center">
