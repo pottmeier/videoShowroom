@@ -21,7 +21,7 @@ export default function Home() {
           <Image src="/icw_02.jpeg" width={imgWidth} height={imgHeight}></Image>
           <Image src="/icw_08.jpeg" width={imgWidth} height={imgHeight}></Image>
           <Image
-            src="https://imgur.com/v6ctJRe"
+            src="https://media.githubusercontent.com/media/pottmeier/videoShowroom/refs/heads/main/public/Afghans_QR.png"
             width={imgWidth}
             height={imgHeight}
           ></Image>
@@ -45,7 +45,7 @@ export default function Home() {
             }
             name="Afghan Students @ Uni Paderborn"
           />{" "}
-          <Image className="w-32 h-auto" src="/Afghans_QR.png"></Image>
+          <Image className="w-32 h-auto" src="https://github.com/pottmeier/videoShowroom/blob/main/public/Afghans_QR.png"></Image>
         </div>
         <Card className="p-5">
           <CardHeader className="justify-center text-center">
