@@ -17,39 +17,38 @@ export default function Home() {
     <>
       <section className="flex flex-col items-center justify-center gap-6 py-12 md:py-16">
         <div className="flex gap-1">
-          <img
-            src="/videoShowroom/images/icw_01.jpeg"
-            width={imgWidth}
-            height={imgHeight}
-            alt="Some Description"
-          ></img>
           <Image
-            src="/videoShowroom/images/icw_02.jpeg"
+            src="https://i.imgur.com/xFb77sL.jpeg"
             width={imgWidth}
             height={imgHeight}
           ></Image>
           <Image
-            src="/videoShowroom/images/icw_08.jpeg"
+            src="https://i.imgur.com/0x5RCOs.jpeg"
             width={imgWidth}
             height={imgHeight}
           ></Image>
           <Image
-            src="/videoShowroom/images/Afghans_UPB.png"
+            src="https://i.imgur.com/turHedx.jpeg"
             width={imgWidth}
             height={imgHeight}
           ></Image>
           <Image
-            src="/videoShowroom/images/icw_10.jpeg"
+            src="https://i.imgur.com/gnrO0Xb.png"
             width={imgWidth}
             height={imgHeight}
           ></Image>
           <Image
-            src="/videoShowroom/images/icw_05.jpeg"
+            src="https://i.imgur.com/z6CJzMt.jpeg"
             width={imgWidth}
             height={imgHeight}
           ></Image>
           <Image
-            src="/videoShowroom/images/icw_06.jpeg"
+            src="https://i.imgur.com/EFeJunP.jpeg"
+            width={imgWidth}
+            height={imgHeight}
+          ></Image>
+          <Image
+            src="https://i.imgur.com/NfEUDXk.jpeg"
             width={imgWidth}
             height={imgHeight}
           ></Image>
@@ -72,7 +71,7 @@ export default function Home() {
           />{" "}
           <Image
             className="w-32 h-auto"
-            src="https://i.imgur.com/SW0Vz5g.png"
+            src="https://i.imgur.com/wnCj2Ns.png"
           ></Image>
         </div>
         <Card className="p-5">

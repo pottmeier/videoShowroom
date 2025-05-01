@@ -7,7 +7,7 @@ export const siteConfig = {
     {
       label: "Old Afghanistan",
       href: "/old_afghanistan",
-      picture: "/images/old_afghanistan.jpeg",
+      picture: "https://i.imgur.com/9TnSU2i.jpeg",
     },
     {
       label: "Dances",
