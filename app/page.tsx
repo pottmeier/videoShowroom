@@ -16,41 +16,48 @@ export default function Home() {
   return (
     <>
       <section className="flex flex-col items-center justify-center gap-6 py-12 md:py-16">
-        <div className="flex gap-1">
+        <div className="grid grid-cols-1 md:grid-cols-7 gap-2">
           <Image
             src="https://i.imgur.com/xFb77sL.jpeg"
             width={imgWidth}
             height={imgHeight}
+            className="hidden md:block"
           ></Image>
           <Image
             src="https://i.imgur.com/0x5RCOs.jpeg"
             width={imgWidth}
             height={imgHeight}
+            className="hidden md:block"
           ></Image>
           <Image
             src="https://i.imgur.com/turHedx.jpeg"
             width={imgWidth}
             height={imgHeight}
+            className="hidden md:block"
           ></Image>
           <Image
             src="https://i.imgur.com/gnrO0Xb.png"
             width={imgWidth}
             height={imgHeight}
+            className="w-40 md:block"
           ></Image>
           <Image
             src="https://i.imgur.com/z6CJzMt.jpeg"
             width={imgWidth}
             height={imgHeight}
+            className="hidden md:block"
           ></Image>
           <Image
             src="https://i.imgur.com/EFeJunP.jpeg"
             width={imgWidth}
             height={imgHeight}
+            className="hidden md:block"
           ></Image>
           <Image
             src="https://i.imgur.com/NfEUDXk.jpeg"
             width={imgWidth}
             height={imgHeight}
+            className="hidden md:block"
           ></Image>
         </div>
         <Card className=" p-5 bg-green-900">
@@ -75,37 +82,38 @@ export default function Home() {
           ></Image>
         </div>
         <Card className="p-5">
-          <CardHeader className="justify-center text-center">
-            <h1 className="text-4xl">
+          <CardHeader className="justify-center text-center mb-4">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
               Select a category to learn more about Afghanistan!
             </h1>
           </CardHeader>
 
-          <ul className="flex gap-4 justify-start ml-2">
+          <ul className="flex flex-wrap gap-4 justify-center ml-2">
             {siteConfig.navItems.map((item) => (
-              <Card key={item.href} className="bg-green-900">
-                <CardHeader className="justify-center text-center">
-                  {" "}
-                  <NextLink
-                    className={clsx(
-                      linkStyles({ color: "foreground" }),
-                      "data-[active=true]:text-primary data-[active=true]:font-medium"
-                    )}
-                    color="foreground"
-                    href={item.href}
-                  >
-                    {item.label}
-                  </NextLink>
-                </CardHeader>
-                <CardBody className="relative h-full w-full">
-                  <Image
-                    src={item.picture}
-                    alt={item.label}
-                    width={150}
-                    height={150}
-                  />
-                </CardBody>
-              </Card>
+              <NextLink key={item.href} href={item.href} passHref>
+                {" "}
+                {/* ensures block-level clickable area */}
+                <Card className="bg-green-900 hover:opacity-90 transition">
+                  <CardHeader className="justify-center text-center">
+                    <h2
+                      className={clsx(
+                        linkStyles({ color: "foreground" }),
+                        "data-[active=true]:text-primary data-[active=true]:font-medium"
+                      )}
+                    >
+                      {item.label}
+                    </h2>
+                  </CardHeader>
+                  <CardBody className="relative h-full w-full flex justify-center">
+                    <Image
+                      src={item.picture}
+                      alt={item.label}
+                      width={150}
+                      height={150}
+                    />
+                  </CardBody>
+                </Card>
+              </NextLink>
             ))}
           </ul>
         </Card>
