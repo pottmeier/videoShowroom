@@ -3,13 +3,7 @@ import VideoGallery from "@/components/video/videoGallery";
 import { Video } from "@/components/video/types";
 
 export default function PeoplePage() {
-  const people: Video[] = [
-    {
-      title:
-        "Afghanistan's Golden Age: The Land Where Women's Rights Were At Par With Western Nations",
-      url: "https://www.youtube.com/watch?v=ylScuPfTb_A&t=1s",
-    },
-  ];
+  const people: Video[] = [];
 
   return (
     <section className="text-center">
