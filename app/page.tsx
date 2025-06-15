@@ -88,7 +88,7 @@ export default function Home() {
             </h1>
           </CardHeader>
 
-          <ul className="flex flex-wrap gap-4 justify-center ml-2">
+          <ul className="grid grid-cols-1 md:grid-cols-4 gap-4 justify-center ml-2">
             {siteConfig.navItems.map((item) => (
               <NextLink key={item.href} href={item.href} passHref>
                 {" "}
@@ -104,7 +104,7 @@ export default function Home() {
                       {item.label}
                     </h2>
                   </CardHeader>
-                  <CardBody className="relative h-full w-full flex justify-center">
+                  <CardBody className="relative h-full w-full flex items-center justify-center">
                     <Image
                       src={item.picture}
                       alt={item.label}

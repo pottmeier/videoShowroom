@@ -20,7 +20,7 @@ export default function afghanistanPage() {
 
   return (
     <section className="text-center">
-      <h1 className={title()}>Old Afghanistan</h1>
+      <h1 className={title()}>Golden Ages of Afghanistan</h1>
       <VideoGallery videos={afghanistan} layout="grid"></VideoGallery>
     </section>
   );

@@ -5,8 +5,8 @@ export const siteConfig = {
   description: "Make beautiful websites regardless of your design experience.",
   navItems: [
     {
-      label: "Old Afghanistan",
-      href: "/old_afghanistan",
+      label: "Golden Ages of Afghanistan",
+      href: "/golden_ages",
       picture: "https://i.imgur.com/9TnSU2i.jpeg",
     },
     {
