@@ -3,7 +3,10 @@ import VideoGallery from "@/components/video/videoGallery";
 import { Video } from "@/components/video/types";
 
 export default function PeoplePage() {
-  const people: Video[] = [];
+  const people: Video[] = [    {
+      title: "How people live in Afghan villages",
+      url: "https://www.youtube.com/watch?v=hTBht8KPA0o",
+    }];
 
   return (
     <section className="text-center">
